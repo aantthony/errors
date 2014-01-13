@@ -1,0 +1,1 @@
+module.exports = require('./base')('UnavailableError', 'Service Unavailable', 503);

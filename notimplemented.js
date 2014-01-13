@@ -1,0 +1,1 @@
+module.exports = require('./base')('NotImplementedError', 'Not Implemented', 501);

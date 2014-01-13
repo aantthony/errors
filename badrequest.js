@@ -1,0 +1,1 @@
+module.exports = require('./base')('BadRequestError', 'Bad Request', 400);

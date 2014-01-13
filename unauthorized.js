@@ -1,0 +1,1 @@
+module.exports = require('./base')('UnauthorizedError', 'Unauthorized', 401);

@@ -1,0 +1,26 @@
+{
+  "name": "errors",
+  "version": "1.0.0",
+  "description": "Error constructors for common http error types",
+  "main": "base.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aantthony/errors.git"
+  },
+  "keywords": [
+    "error",
+    "constructor",
+    "http",
+    "404",
+    "500",
+    "403"
+  ],
+  "author": "Anthony Foster <git@af.id.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aantthony/errors/issues"
+  }
+}
