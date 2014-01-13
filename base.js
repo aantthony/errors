@@ -1,15 +1,17 @@
+var util = require('util');
+
 module.exports = function (name, defaultMessage, status) {
 
-  require('util').inherits(constructor, Error);
+  util.inherits(Constructor, Error);
 
-  return constructor;
+  return Constructor;
 
-  function constructor (message) {
+  function Constructor (message) {
     Error.call(this);
     Error.captureStackTrace(this, arguments.callee);
     this.name = name;
     this.message = message || defaultMessage;
-    this.status = 400;
+    this.status = status;
   }
 
 };
