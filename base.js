@@ -6,12 +6,13 @@ module.exports = function (name, defaultMessage, status) {
 
   return Constructor;
 
-  function Constructor (message) {
+  function Constructor (message, code) {
     Error.call(this);
     Error.captureStackTrace(this, arguments.callee);
     this.name = name;
     this.message = message || defaultMessage;
     this.status = status;
+    if (code !== undefined) this.code = code;
   }
 
 };
