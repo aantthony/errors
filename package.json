@@ -1,5 +1,5 @@
 {
-  "name": "errors",
+  "name": "err-http",
   "version": "1.0.1",
   "description": "Error constructors for common http error types",
   "main": "base.js",
