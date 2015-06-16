@@ -12,6 +12,7 @@ module.exports = function (name, defaultMessage, status) {
     this.name = name;
     this.message = message || defaultMessage;
     this.status = status;
+    this.expose = true;
     if (code !== undefined) this.code = code;
   }
 
