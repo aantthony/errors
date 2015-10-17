@@ -2,7 +2,7 @@
   "name": "err-http",
   "version": "1.1.0",
   "description": "Error constructors for common http error types",
-  "main": "base.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha --recursive"
   },
