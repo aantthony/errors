@@ -7,10 +7,9 @@ module.exports = function (name, defaultMessage, status) {
   return Constructor;
 
   function Constructor (message, code) {
-    Error.call(this);
+    Error.call(this, message || defaultMessage);
     Error.captureStackTrace(this, arguments.callee);
     this.name = name;
-    this.message = message || defaultMessage;
     this.status = status;
     this.expose = true;
     if (code !== undefined) this.code = code;
